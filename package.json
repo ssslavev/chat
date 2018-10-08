@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "harp server --port $PORT"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
