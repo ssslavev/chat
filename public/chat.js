@@ -1,4 +1,4 @@
-const socket = io.connect('http://localhost:5000');
+const socket = io.connect('https://simple-mini-chatapp.herokuapp.com/');
 
 const output = document.getElementById('output'),
     name = document.getElementById('name'),
