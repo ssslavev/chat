@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.dev.js"></script>
+    <title>Chat</title>
+</head>
+
+<body>
+    <div id="chat" class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-4 col-offset-4 centered">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Chat 500</div>
+                    <div class="panel-body">
+                        <div id="output" class="container">
+                        </div>
+                        <div class="panel-footer">
+                            <div class="input-group">
+                                <input id="name" placeholder="name" type="text" class="form-control">
+                                <input id="message" placeholder="message" type="text" class="form-control">
+                                <span class="input-group-btn">
+                                    <button id="btn" class="btn btn-primary" type="button">Send</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./chat.js"></script>
+
+</html>
