@@ -30,7 +30,7 @@ socket.on('chat', (data) => {
 
     div.prepend(span);
     div.prepend(p);
-
-    output.prepend(div);
+    
+    output.appendChild(div);
 
 })
