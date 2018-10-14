@@ -15,7 +15,7 @@ app.use(express.static('public'));
 const io = socket(server);
 
 io.on('connection', (socket)=> {
-    console.log('made socket conection');
+    console.log('maded socket conection');
 
    socket.on('chat', (data)=> {
         
